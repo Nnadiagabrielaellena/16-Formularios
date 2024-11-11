@@ -1,0 +1,23 @@
+.body {
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      
+     
+}
+
+.cont-formulario {
+      padding: 20px;
+      border: 2px solid black;
+      background-color: aqua;
+     
+      border-radius: 20px;
+      width: 30%;
+  }
+  label {
+      font-size: 15px;
+      font-weight: bold;
+  }

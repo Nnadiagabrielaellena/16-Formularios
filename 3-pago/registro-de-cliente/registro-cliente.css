@@ -1,0 +1,90 @@
+body {
+      height: 800px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+}
+
+form {
+      height: 500px;
+      width: 400px;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between
+}
+
+input {
+      height: 30px;
+}
+
+.cont-tit {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.cont-nombre {
+      width: 100%;
+}
+
+.cont-datos {
+      margin-top: 0;
+}
+
+.cont-gral {
+      display: flex;
+      flex-direction: column;
+      margin: 10px;
+}
+
+.cont-nombre {
+      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      height: 70px;
+      justify-content: start;
+
+}
+
+.cont-titulos {
+
+      display: flex;
+      flex-direction: column;
+}
+
+.cont-tit {
+      display: flex;
+      justify-content: start;
+      width: 90%;
+}
+
+.cont-letra-chica {
+      font-size: 10px;
+      color: rgb(92, 87, 87);
+      display: flex;
+      justify-content: start;
+      padding-left: 10px;
+}
+
+.cont-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 40px;
+}
+
+.cont-submit {
+      padding-right: 10px;
+}
+
+.tit-submit {
+      background-color: rgb(71 208 208);
+      height: 45px;
+      width: 105px;
+      border-radius: 10px;
+      color: white;
+      box-shadow: 7px 6px 16px 0px rgba(0, 0, 0, 0.75);
+}
